@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import Head from "next/head";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -9,15 +10,17 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Pentagon Studio
-        </h1>
-
+        <Image
+          src="/pentagonStudioLogo.jpg"
+          alt="pentagon studio logo"
+          width={300}
+          height={300}
+        />
         <p className="mt-3 text-2xl">
-          Building digital products that loves users
-  
+          Building digital products that <br />
+          loves users
         </p>
       </main>
     </div>
-  )
+  );
 }
