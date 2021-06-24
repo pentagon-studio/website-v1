@@ -16,9 +16,9 @@ export default function Home() {
           width={300}
           height={300}
         />
-        <p className="mt-3 text-2xl">
+        <p className="mt-3 text-2xl font-mono">
           Building digital products that <br />
-          loves users
+          <span className="text-green-600">loves users</span>
         </p>
       </main>
     </div>
