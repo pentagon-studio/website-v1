@@ -42,6 +42,19 @@ export default function Home() {
           Human computer intreaction research
         </p>
       </div>
+      <div className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center h-screen">
+        <p className="mt-10 text-4xl font-comfortaa text-green-600">
+          Our products
+        </p>
+      </div>
+      <div className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center h-screen">
+        <p className="mt-10 text-4xl font-comfortaa">
+          We are excited to hear from you
+        </p>
+        <p className="mt-10 text-4xl font-comfortaa text-green-600">
+          hello@pentagon.studio
+        </p>
+      </div>
     </div>
   );
 }
