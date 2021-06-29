@@ -48,7 +48,7 @@ export default function Home() {
         </p>
         <div className="w-full flex flex-row justify-between">
           <div className="flex-1"></div>
-          <div className="flex-1">
+          <div className="flex-1 flex items-center flex-col	">
             <Image
               src="/dreamFirst.png"
               alt="DreamFirst logo"
@@ -57,17 +57,17 @@ export default function Home() {
             />
             Dream First
           </div>
-          <div className="flex-1">
+          <div className="flex-1 text-left">
             Dream Firsts is your wellwisher, thinks about your dreams, life
             goals. She is one who is most happy when you achieved them.
           </div>
         </div>
         <div className="w-full flex flex-row justify-between">
-          <div className="flex-1">
+          <div className="flex-1 text-right">
             Learn First is your partner, teacher, your personal coach, who loves
             you, how evolves with your need. She will make you wiser daily.
           </div>
-          <div className="flex-1">
+          <div className="flex flex-1 items-center flex-col">
             <Image
               src="/learnFirst.png"
               alt="DreamFirst logo"
