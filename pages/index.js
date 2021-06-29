@@ -57,15 +57,20 @@ export default function Home() {
             />
             <p className="font-comfortaa">Dream First</p>
           </div>
-          <div className="flex-1 text-left font-comfortaa">
-            Dream Firsts is your wellwisher, thinks about your dreams, life
-            goals. She is one who is most happy when you achieved them.
+          <div className="flex-1 self-center">
+            <div className="w-80 font-comfortaa text-left">
+              Dream Firsts is your wellwisher, thinks about your dreams, life
+              goals. She is one who is most happy when you achieved them.
+            </div>
           </div>
         </div>
         <div className="w-full flex flex-row justify-between mt-10">
-          <div className="flex-1 text-right font-comfortaa">
-            Learn First is your partner, teacher, your personal coach, who loves
-            you, how evolves with your need. She will make you wiser daily.
+          <div className="flex-1 self-center flex justify-end">
+            <div className="w-80 font-comfortaa text-right">
+              Learn First is your partner, teacher, your personal coach, who
+              loves you, how evolves with your need. She will make you wiser
+              daily.
+            </div>
           </div>
           <div className="flex flex-1 items-center flex-col">
             <Image
