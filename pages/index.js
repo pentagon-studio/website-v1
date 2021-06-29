@@ -46,6 +46,22 @@ export default function Home() {
         <p className="mt-10 text-4xl font-comfortaa text-green-600">
           Our products
         </p>
+        <div className="w-full flex flex-row justify-between">
+          <div className="flex-1"></div>
+          <div className="flex-1">Dream First</div>
+          <div className="flex-1">
+            Dream Firsts is your wellwisher, thinks about your dreams, life
+            goals. She is one who is most happy when you achieved them.
+          </div>
+        </div>
+        <div className="w-full flex flex-row justify-between">
+          <div className="flex-1">
+            Learn First is your partner, teacher, your personal coach, who loves
+            you, how evolves with your need. She will make you wiser daily.
+          </div>
+          <div className="flex-1">Learn First</div>
+          <div className="flex-1"></div>
+        </div>
       </div>
       <div className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center h-screen">
         <p className="mt-10 text-4xl font-comfortaa">
