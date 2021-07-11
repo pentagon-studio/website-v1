@@ -87,10 +87,10 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center h-screen relative">
         <div>
-          <p className="mt-10 text-4xl font-comfortaa">
+          <p className="mt-10 text-xl md:text-4xl font-comfortaa">
             We are excited to hear from you
           </p>
-          <p className="mt-10 text-4xl font-comfortaa text-green-600">
+          <p className="mt-10 text-xl md:text-4xl font-comfortaa text-green-600">
             hello@pentagon.studio
           </p>
         </div>
