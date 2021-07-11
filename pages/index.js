@@ -56,7 +56,7 @@ export default function Home() {
               width={100}
               height={100}
             />
-            <p className="font-comfortaa font-bold">Dream First</p>
+            <p className="font-comfortaa font-bold mb-2">Dream First</p>
           </div>
           <div className="flex-1 self-center">
             <div className="w-80 font-comfortaa lg:text-left">
@@ -80,7 +80,7 @@ export default function Home() {
               width={100}
               height={100}
             />
-            <p className="font-comfortaa font-bold">Learn First</p>
+            <p className="font-comfortaa font-bold mb-2">Learn First</p>
           </div>
           <div className="flex-1"></div>
         </div>
