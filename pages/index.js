@@ -56,7 +56,7 @@ export default function Home() {
               width={100}
               height={100}
             />
-            <p className="font-comfortaa">Dream First</p>
+            <p className="font-comfortaa font-bold">Dream First</p>
           </div>
           <div className="flex-1 self-center">
             <div className="w-80 font-comfortaa lg:text-left">
@@ -65,7 +65,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="w-full flex flex-col lg:flex-row justify-between mt-10">
+        <div className="w-full flex flex-col-reverse lg:flex-row lg:flex-row justify-between mt-10">
           <div className="flex-1 self-center flex justify-end">
             <div className="w-80 font-comfortaa lg:text-right">
               Learn First is your partner, teacher, your personal coach, who
@@ -80,7 +80,7 @@ export default function Home() {
               width={100}
               height={100}
             />
-            <p className="font-comfortaa">Learn First</p>
+            <p className="font-comfortaa font-bold">Learn First</p>
           </div>
           <div className="flex-1"></div>
         </div>
