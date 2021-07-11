@@ -47,7 +47,7 @@ export default function Home() {
         <p className="mt-10 text-4xl font-comfortaa text-green-600">
           Our products
         </p>
-        <div className="w-full flex flex-row justify-between mt-20">
+        <div className="w-full flex flex-col lg:flex-row justify-between mt-20">
           <div className="flex-1"></div>
           <div className="flex-1 flex items-center flex-col	">
             <Image
@@ -59,15 +59,15 @@ export default function Home() {
             <p className="font-comfortaa">Dream First</p>
           </div>
           <div className="flex-1 self-center">
-            <div className="w-80 font-comfortaa text-left">
+            <div className="w-80 font-comfortaa lg:text-left">
               Dream Firsts is your wellwisher, thinks about your dreams, life
               goals. She is one who is most happy when you achieved them.
             </div>
           </div>
         </div>
-        <div className="w-full flex flex-row justify-between mt-10">
+        <div className="w-full flex flex-col lg:flex-row justify-between mt-10">
           <div className="flex-1 self-center flex justify-end">
-            <div className="w-80 font-comfortaa text-right">
+            <div className="w-80 font-comfortaa lg:text-right">
               Learn First is your partner, teacher, your personal coach, who
               loves you, how evolves with your need. She will make you wiser
               daily.
