@@ -85,12 +85,44 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center h-screen">
-        <p className="mt-10 text-4xl font-comfortaa">
-          We are excited to hear from you
-        </p>
-        <p className="mt-10 text-4xl font-comfortaa text-green-600">
-          hello@pentagon.studio
-        </p>
+        <div>
+          <p className="mt-10 text-4xl font-comfortaa">
+            We are excited to hear from you
+          </p>
+          <p className="mt-10 text-4xl font-comfortaa text-green-600">
+            hello@pentagon.studio
+          </p>
+        </div>
+        <div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://twitter.com/pentagon_studio"
+          >
+            twitter
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.facebook.com/thepentagonstudio"
+          >
+            facebook
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/pentagon.studio"
+          >
+            instagram
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/company/pentagon-studio"
+          >
+            linkedin
+          </a>
+        </div>
       </div>
     </div>
   );
