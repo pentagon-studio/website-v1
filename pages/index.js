@@ -21,21 +21,21 @@ export default function Home() {
           width={300}
           height={300}
         />
-        <p className="mt-10 text-4xl font-comfortaa">
+        <p className="mt-10 md:text-4xl font-comfortaa">
           Building digital products that <br />
           <span className="text-green-600">loves users</span>
         </p>
       </div>
       <div className="flex flex-col items-center justify-center w-full flex-1 text-center h-screen">
         <p className="mt-10 text-4xl font-comfortaa text-green-600">We are</p>
-        <p className="mt-10 text-2xl font-comfortaa">
+        <p className="mt-10 md:text-2xl font-comfortaa">
           A team of technology, design and marketing entusiasts who thinks about
           and builds great digital products.
         </p>
         <p className="mt-40 text-4xl font-comfortaa text-green-600">
           We specialize on building
         </p>
-        <p className="mt-10 text-2xl font-comfortaa">
+        <p className="mt-10 md:text-2xl font-comfortaa">
           Web and mobile applications <br />
           Virtual reality applications <br />
           Interactive websites <br />
