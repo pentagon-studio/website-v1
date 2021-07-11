@@ -38,7 +38,8 @@ export default function Home() {
         <p className="mt-10 text-2xl font-comfortaa">
           Web and mobile applications <br />
           Virtual reality applications <br />
-          Interactive websites AI powered user Interfaces <br />
+          Interactive websites <br />
+          AI powered user Interfaces <br />
           Human computer intreaction research
         </p>
       </div>
