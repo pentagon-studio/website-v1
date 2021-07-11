@@ -93,7 +93,7 @@ export default function Home() {
             hello@pentagon.studio
           </p>
         </div>
-        <div className="absolute">
+        <div className="absolute bottom-5">
           <a
             className="m-2"
             target="_blank"
