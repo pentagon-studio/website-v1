@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+    <div className="px-10">
       <Head>
         <title>Pentagon Studio</title>
         <link rel="icon" href="/favicon.ico" />
@@ -14,7 +14,7 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <div className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center h-screen">
+      <div className="flex flex-col items-center justify-center w-full flex-1 text-center h-screen">
         <Image
           src="/pentagonStudioLogo.jpg"
           alt="pentagon studio logo"
@@ -26,7 +26,7 @@ export default function Home() {
           <span className="text-green-600">loves users</span>
         </p>
       </div>
-      <div className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center h-screen">
+      <div className="flex flex-col items-center justify-center w-full flex-1 text-center h-screen">
         <p className="mt-10 text-4xl font-comfortaa text-green-600">We are</p>
         <p className="mt-10 text-2xl font-comfortaa">
           A team of technology, design and marketing entusiasts who thinks about
@@ -43,7 +43,7 @@ export default function Home() {
           Human computer intreaction research
         </p>
       </div>
-      <div className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center h-screen">
+      <div className="flex flex-col items-center justify-center w-full flex-1 text-center h-screen">
         <p className="mt-10 text-4xl font-comfortaa text-green-600">
           Our products
         </p>
@@ -85,7 +85,7 @@ export default function Home() {
           <div className="flex-1"></div>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center h-screen relative">
+      <div className="flex flex-col items-center justify-center w-full flex-1 text-center h-screen relative">
         <div>
           <p className="mt-10 text-xl md:text-4xl font-comfortaa">
             We are excited to hear from you
