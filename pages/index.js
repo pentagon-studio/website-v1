@@ -84,7 +84,7 @@ export default function Home() {
           <div className="flex-1"></div>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center h-screen">
+      <div className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center h-screen relative">
         <div>
           <p className="mt-10 text-4xl font-comfortaa">
             We are excited to hear from you
@@ -93,8 +93,9 @@ export default function Home() {
             hello@pentagon.studio
           </p>
         </div>
-        <div>
+        <div className="absolute">
           <a
+            className="m-2"
             target="_blank"
             rel="noopener noreferrer"
             href="https://twitter.com/pentagon_studio"
@@ -102,6 +103,7 @@ export default function Home() {
             twitter
           </a>
           <a
+            className="m-2"
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.facebook.com/thepentagonstudio"
@@ -109,6 +111,7 @@ export default function Home() {
             facebook
           </a>
           <a
+            className="m-2"
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.instagram.com/pentagon.studio"
@@ -116,6 +119,7 @@ export default function Home() {
             instagram
           </a>
           <a
+            className="m-2"
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.linkedin.com/company/pentagon-studio"
