@@ -47,39 +47,46 @@ export default function Home() {
         </p>
         <div className="w-full flex flex-col lg:flex-row justify-between mt-20">
           <div className="flex-1"></div>
-          <div className="flex-1 flex items-center flex-col	">
+          <a
+            className="flex-1 flex items-center flex-col"
+            href="https://shaperoute.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               src="/dreamFirst.png"
               alt="DreamFirst logo"
               width={100}
               height={100}
             />
-            <p className="font-comfortaa font-bold mb-2">Dream First</p>
-          </div>
+            <p className="font-comfortaa font-bold mb-2">ShapeRoute</p>
+          </a>
           <div className="flex-1 self-center">
             <div className="w-80 font-comfortaa lg:text-left">
-              Dream Firsts is your wellwisher, thinks about your dreams, life
-              goals. She is one who is most happy when you achieved them.
+              Crypto fitness tracker that inspires you to be healthy
             </div>
           </div>
         </div>
         <div className="w-full flex flex-col-reverse lg:flex-row lg:flex-row justify-between mt-10">
           <div className="flex-1 self-center flex justify-end">
             <div className="w-80 font-comfortaa lg:text-right">
-              Learn First is your partner, teacher, your personal coach, who
-              loves you, how evolves with your need. She will make you wiser
-              daily.
+              Management solutions for small sized property owners.
             </div>
           </div>
-          <div className="flex flex-1 items-center flex-col">
+          <a
+            className="flex flex-1 items-center flex-col"
+            href="https://www.producthunt.com/products/manmeho"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               src="/learnFirst.png"
               alt="DreamFirst logo"
               width={100}
               height={100}
             />
-            <p className="font-comfortaa font-bold mb-2">Learn First</p>
-          </div>
+            <p className="font-comfortaa font-bold mb-2">Manmeho</p>
+          </a>
           <div className="flex-1"></div>
         </div>
       </div>
